@@ -1,5 +1,5 @@
 {
-  "name": "basic-tgc",
+  "name": "basic-tcg",
   "version": "0.0.1",
   "description": "A simple TCG REST API",
   "main": "index.js",
