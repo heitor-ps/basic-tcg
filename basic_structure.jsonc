@@ -1,0 +1,65 @@
+[
+  // CARD
+  {
+    "id": 123,
+    "name": "Black Magician",
+    "type": "monster",
+    "attack": 1250,
+    "defense": 2000,
+    "effect": {
+      "description": "Any text here",
+      "summon_requirement": 0
+    },
+    "summon_cost": 5,
+    "image": "black_cock.png",
+    "created_at": "2020-08-12T12:00:00",
+    "last_modified": "2020-08-12T12:00:00"
+  },
+  // PLAYER
+  {
+    "id": 123,
+    "name": "Tesento Naraba",
+    "gender": "Hipopotamo",
+    "country": "Japan",
+    "age": 26,
+    "avatar": "helicoptero_de_combate_apache_rebaixado_tunado_brabissimo_2020_atualizado_windows_e_mac.png",
+    "cards_book": [12, 12980, 124012, 123, 1231415, 5235, 235],
+    "decks": [1, 40],
+    "score": {
+      "wins": 12,
+      "loses": 4
+    },
+    "created_at": "2020-08-12T12:00:00",
+    "last_modified": "2020-08-12T12:00:00"
+  },
+  // DECK
+  {
+    "id": 123,
+    "name": "Melhor deck de todos",
+    "cards": [12, 123, 235],
+    "created_at": "2020-08-12T12:00:00",
+    "last_modified": "2020-08-12T12:00:00"
+  },
+  // SESSION
+  {
+    "id": 123,
+    "winner": 12,
+    "loser": 21,
+    "created_at": "2020-08-12T12:00:00",
+    "ended_at": "2020-08-12T15:00:00",
+    "player1": {
+      "deck": 123,
+      "graveyard": [123, 42, 5559, 1],
+      "hand": [12, 49, 23, 11],
+      "field": [55, 2341, 993],
+      "life": 2300
+    },
+    "player2": {
+      "deck": 12,
+      "graveyard": [23, 2, 59, 5],
+      "hand": [12, 49, 23, 11],
+      "field": [55, 2341, 993],
+      "life": 2300
+    }
+  }
+]

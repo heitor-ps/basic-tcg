@@ -1,0 +1,12 @@
+{
+  "name": "basic-tgc",
+  "version": "0.0.1",
+  "description": "A simple TCG REST API",
+  "main": "index.js",
+  "repository": "https://github.com/heitor-ps/basic-tgc.git",
+  "author": "OS BONS",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
