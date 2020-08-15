@@ -3,10 +3,26 @@
   "version": "0.0.1",
   "description": "A simple TCG REST API",
   "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
   "repository": "https://github.com/heitor-ps/basic-tgc.git",
   "author": "OS BONS",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
