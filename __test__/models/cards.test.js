@@ -1,5 +1,10 @@
 const request = require("supertest");
 const app = require("../../app");
+const db = require("../../app/db");
+
+const dbConfig = require("../config.json").db;
+
+db.connect(dbConfig);
 
 describe("Test cards paths", () => {
   test("Create new card", async () => {
